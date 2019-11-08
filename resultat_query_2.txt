@@ -1,0 +1,105 @@
+------------------------------------------------------
+| pollutant                                  | count |
+======================================================
+| "Diesel"                                   | 415   |
+| "Sheen"                                    | 161   |
+| "Bilge"                                    | 95    |
+| "HFO"                                      | 34    |
+| "Hydraulic Fluid"                          | 29    |
+| "Hydraulic "                               | 19    |
+| "Other"                                    | 18    |
+| "Hydraulic"                                | 17    |
+| "Other (Hydraulic Oil)"                    | 17    |
+| "Unknown"                                  | 16    |
+| "Diesel "                                  | 10    |
+| "Hydraulic Oil"                            | 9     |
+| "Oil"                                      | 7     |
+| "Petrol"                                   | 6     |
+| "Hydraulic oil"                            | 4     |
+| "Fuel Oil"                                 | 3     |
+| "Lube Oil"                                 | 3     |
+| "Paint"                                    | 3     |
+| "Avgas"                                    | 2     |
+| "Crude"                                    | 2     |
+| "Engine oil"                               | 2     |
+| "Garbage"                                  | 2     |
+| "Lubricating"                              | 2     |
+| "Lubricating Oil"                          | 2     |
+| "Other (Hydraulic oil)"                    | 2     |
+| "Other (Paint)"                            | 2     |
+| "Other (Tar Balls)"                        | 2     |
+| "Other (sump oil)"                         | 2     |
+| "Other - Hydraulic"                        | 2     |
+| "Petroleum Coke"                           | 2     |
+| "Soot"                                     | 2     |
+| "unknown"                                  | 2     |
+| " Hydraulic "                              | 1     |
+| " Petrol"                                  | 1     |
+| "Bitumen Spray"                            | 1     |
+| "Carbon from diesel engine"                | 1     |
+| "Chemical"                                 | 1     |
+| "Chemical (AFLCO)"                         | 1     |
+| "Coal dust"                                | 1     |
+| "Coke"                                     | 1     |
+| "Cooking oil"                              | 1     |
+| "Coolant"                                  | 1     |
+| "Cotton Seed Residue"                      | 1     |
+| "Diesel Sheen"                             | 1     |
+| "Discoloured Water"                        | 1     |
+| "Discoloured Water "                       | 1     |
+| "Engine "                                  | 1     |
+| "Fatty Substance"                          | 1     |
+| "Garbage "                                 | 1     |
+| "Grease"                                   | 1     |
+| "Grease "                                  | 1     |
+| "Ground food waste 1890 Kg"                | 1     |
+| "Heating "                                 | 1     |
+| "Heavy Fuel Oil"                           | 1     |
+| "Hydrocarbons into sewage treatment plant" | 1     |
+| "Lanolin"                                  | 1     |
+| "Light Oil"                                | 1     |
+| "Lubricating "                             | 1     |
+| "Lubrication oil"                          | 1     |
+| "Molasses"                                 | 1     |
+| "N/A"                                      | 1     |
+| "Other "                                   | 1     |
+| "Other (Bitumen)"                          | 1     |
+| "Other (Calcined Petroleum Coke)"          | 1     |
+| "Other (Carbon Soot)"                      | 1     |
+| "Other (Coal Slurry)"                      | 1     |
+| "Other (Emulsion)"                         | 1     |
+| "Other (Engine Oil)"                       | 1     |
+| "Other (Gearbox oil)"                      | 1     |
+| "Other (Grease)"                           | 1     |
+| "Other (Lube Oil)"                         | 1     |
+| "Other (Molasses)"                         | 1     |
+| "Other (Panolin)"                          | 1     |
+| "Other (Sand blasting sand)"               | 1     |
+| "Other (Slop Oil)"                         | 1     |
+| "Other (Stock feed)"                       | 1     |
+| "Other (garnet and paint)"                 | 1     |
+| "Other (grease trap)"                      | 1     |
+| "Other (grey water)"                       | 1     |
+| "Other (low sulphur Gas Oil)"              | 1     |
+| "Other (lubricant oil)"                    | 1     |
+| "Other (sewage)"                           | 1     |
+| "Other (soot)"                             | 1     |
+| "Other - Gearbox"                          | 1     |
+| "Other - Hyd"                              | 1     |
+| "Other - Lube"                             | 1     |
+| "Other - Lube "                            | 1     |
+| "Paint Dust"                               | 1     |
+| "Palm acid oil"                            | 1     |
+| "Sewage & grey water"                      | 1     |
+| "Sheen "                                   | 1     |
+| "Sodium Hydroxide 50%"                     | 1     |
+| "Sulphur"                                  | 1     |
+| "Sump Oil"                                 | 1     |
+| "Tallo"                                    | 1     |
+| "Tallow "                                  | 1     |
+| "Tar"                                      | 1     |
+| "ULP"                                      | 1     |
+| "Unleaded Petrol"                          | 1     |
+| "Vegetable"                                | 1     |
+| "sodium Hypochlorite"                      | 1     |
+------------------------------------------------------
