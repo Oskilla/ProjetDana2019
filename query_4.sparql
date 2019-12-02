@@ -1,0 +1,31 @@
+PREFIX ex: <http://ex.org/a#>
+PREFIX exGov: <http://www.tmr.qld.gov.au/-/media/aboutus/corpinfo/Open%20data/marinepollutiondata/a#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT ?idTTLAustralia ?idTTLWWPollution ?region ?Date_TimeTTLAustralia ?Date_TimeTTLWWPollution ?Area ?value_NO2 ?catValueNO2
+WHERE{
+
+    ?x exGov:Id ?idTTLAustralia;
+        exGov:Date ?Date_TimeTTLAustralia.
+    
+    FILTER(?Date_TimeTTLAustralia > "2018-06-01T00:00:00+00:00"^^xsd:dateTime && ?Date_TimeTTLAustralia < "2018-06-30T23:59:59+00:00"^^xsd:dateTime).
+    ?x dbo:city ?region.
+
+    ?measure dbo:city ?Icity.
+    ?Icity ex:valueCity ?city.
+    FILTER(SAMETERM(?city, ?region)).
+
+    ?Icity dbo:country ?Icountry.
+    ?Icountry ex:valueCountry ?country.
+    FILTER(?country = "Australia").
+    
+    ?x exGov:Area ?Area.
+    
+    ?measure ex:idValue ?idTTLWWPollution;
+        ex:concentrationNO2 ?Ivalue_NO2;
+        ex:DateMeasure ?Date_TimeTTLWWPollution.
+    
+    ?Ivalue_NO2 ex:category_NO2 ?catValueNO2;
+        ex:valueNO2 ?value_NO2.
+}

@@ -1,0 +1,6 @@
+SELECT ?pollutant (count(?pollutant) as ?count)
+WHERE{ 
+	?x <http://www.tmr.qld.gov.au/-/media/aboutus/corpinfo/Open%20data/marinepollutiondata/a#Pollutant> ?pollutant.
+}
+GROUP BY ?pollutant
+ORDER BY DESC (?count)

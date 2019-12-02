@@ -1,0 +1,26 @@
+PREFIX ex:   <http://www.tmr.qld.gov.au/-/media/aboutus/corpinfo/Open%20data/marinepollutiondata/a#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+CONSTRUCT {
+  ?URI ex:Id ?Id;
+  ex:Date ?Date;
+  dbo:city ?Region;
+  ex:Source ?Source;
+  ex:Ship_Type ?Ship_Type;
+  ex:Area ?Area;
+  ex:Location ?Location;
+  ex:Pollutant ?Pollutant;
+  ex:Estimated_Litres ?Estimated_Litres
+} 
+WHERE {
+BIND (URI(CONCAT('http://www.tmr.qld.gov.au/-/media/aboutus/corpinfo/Open%20data/marinepollutiondata/Id', ?Id)) AS ?URI)
+BIND (xsd:dateTime(?Date) AS ?Date_Time)
+BIND (xsd:string(?Region) AS ?Region)
+BIND (xsd:string(?Source) AS ?Source)
+BIND (xsd:string(?Ship_Type) AS ?Ship_Type)
+BIND (xsd:string(?Area) AS ?Area)
+BIND (xsd:string(?Location) AS ?Location)
+BIND (xsd:string(?Pollutant) AS ?Pollutant)
+}	
