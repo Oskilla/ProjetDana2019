@@ -1,0 +1,853 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/quest/ontologies/2019/11/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/quest/ontologies/2019/11/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/quest/ontologies/2019/11/untitled-ontology-2#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstimatedLitres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Id"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarinePollution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pollutant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShipType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasArea"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEstimatedeLitres"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasId"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPollutant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasShipType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSource"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abell_Point"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bilge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brisbane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bulimba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cairns"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coastal_Water"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Commercial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diesel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hydraulic_Oil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mackay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Port"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ports_limits"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Recreational"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sheen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ship"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Townsville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Townsville_Breakwater"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trinity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Unknown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnknownLitres"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnknownST"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnknownShip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#data1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#data2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#data3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#data4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#data5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2.5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2002-07-02T01:00:00+00:00"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2002-07-03T01:00:00+00:00"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2018-05-28T01:00:00+00:00"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2018-06-02T01:00:00+00:00"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2018-06-03T01:00:00+00:00"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#960"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#961"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#962"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Area"/>
+        <Class IRI="#MarinePollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Date"/>
+        <Class IRI="#MarinePollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstimatedLitres"/>
+        <Class IRI="#MarinePollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Id"/>
+        <Class IRI="#MarinePollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#MarinePollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarinePollution"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasArea"/>
+            <Class IRI="#Area"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarinePollution"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasDate"/>
+            <Class IRI="#Date"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarinePollution"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasEstimatedeLitres"/>
+            <Class IRI="#EstimatedLitres"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarinePollution"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasId"/>
+            <Class IRI="#Id"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarinePollution"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasLocation"/>
+            <Class IRI="#Location"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarinePollution"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPollutant"/>
+            <Class IRI="#Pollutant"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarinePollution"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasRegion"/>
+            <Class IRI="#Region"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarinePollution"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasShipType"/>
+            <Class IRI="#ShipType"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarinePollution"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Source"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pollutant"/>
+        <Class IRI="#MarinePollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <Class IRI="#MarinePollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShipType"/>
+        <Class IRI="#MarinePollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Source"/>
+        <Class IRI="#MarinePollution"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Area"/>
+        <Class IRI="#Date"/>
+        <Class IRI="#EstimatedLitres"/>
+        <Class IRI="#Id"/>
+        <Class IRI="#Location"/>
+        <Class IRI="#Pollutant"/>
+        <Class IRI="#Region"/>
+        <Class IRI="#ShipType"/>
+        <Class IRI="#Source"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Abell_Point"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pollutant"/>
+        <NamedIndividual IRI="#Bilge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#Brisbane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Bulimba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#Cairns"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Area"/>
+        <NamedIndividual IRI="#Coastal_Water"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ShipType"/>
+        <NamedIndividual IRI="#Commercial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pollutant"/>
+        <NamedIndividual IRI="#Diesel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pollutant"/>
+        <NamedIndividual IRI="#Hydraulic_Oil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#Mackay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Marina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Area"/>
+        <NamedIndividual IRI="#Port"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Area"/>
+        <NamedIndividual IRI="#Ports_limits"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ShipType"/>
+        <NamedIndividual IRI="#Recreational"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pollutant"/>
+        <NamedIndividual IRI="#Sheen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Source"/>
+        <NamedIndividual IRI="#Ship"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#Townsville"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Townsville_Breakwater"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Trinity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pollutant"/>
+        <NamedIndividual IRI="#Unknown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstimatedLitres"/>
+        <NamedIndividual IRI="#UnknownLitres"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ShipType"/>
+        <NamedIndividual IRI="#UnknownST"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Source"/>
+        <NamedIndividual IRI="#UnknownShip"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MarinePollution"/>
+        <NamedIndividual IRI="#data1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MarinePollution"/>
+        <NamedIndividual IRI="#data2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MarinePollution"/>
+        <NamedIndividual IRI="#data3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MarinePollution"/>
+        <NamedIndividual IRI="#data4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MarinePollution"/>
+        <NamedIndividual IRI="#data5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Id"/>
+        <NamedIndividual IRI="#1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Id"/>
+        <NamedIndividual IRI="#2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstimatedLitres"/>
+        <NamedIndividual IRI="#2.5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#2002-07-02T01:00:00+00:00"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#2002-07-03T01:00:00+00:00"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#2018-05-28T01:00:00+00:00"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#2018-06-02T01:00:00+00:00"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#2018-06-03T01:00:00+00:00"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstimatedLitres"/>
+        <NamedIndividual IRI="#30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstimatedLitres"/>
+        <NamedIndividual IRI="#4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Id"/>
+        <NamedIndividual IRI="#960"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Id"/>
+        <NamedIndividual IRI="#961"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Id"/>
+        <NamedIndividual IRI="#962"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Abell_Point"/>
+        <NamedIndividual IRI="#Bilge"/>
+        <NamedIndividual IRI="#Brisbane"/>
+        <NamedIndividual IRI="#Bulimba"/>
+        <NamedIndividual IRI="#Cairns"/>
+        <NamedIndividual IRI="#Coastal_Water"/>
+        <NamedIndividual IRI="#Commercial"/>
+        <NamedIndividual IRI="#Diesel"/>
+        <NamedIndividual IRI="#Hydraulic_Oil"/>
+        <NamedIndividual IRI="#Mackay"/>
+        <NamedIndividual IRI="#Marina"/>
+        <NamedIndividual IRI="#Port"/>
+        <NamedIndividual IRI="#Ports_limits"/>
+        <NamedIndividual IRI="#Recreational"/>
+        <NamedIndividual IRI="#Sheen"/>
+        <NamedIndividual IRI="#Ship"/>
+        <NamedIndividual IRI="#Townsville"/>
+        <NamedIndividual IRI="#Townsville_Breakwater"/>
+        <NamedIndividual IRI="#Trinity"/>
+        <NamedIndividual IRI="#Unknown"/>
+        <NamedIndividual IRI="#UnknownLitres"/>
+        <NamedIndividual IRI="#UnknownST"/>
+        <NamedIndividual IRI="#UnknownShip"/>
+        <NamedIndividual IRI="#data1"/>
+        <NamedIndividual IRI="#data2"/>
+        <NamedIndividual IRI="#data3"/>
+        <NamedIndividual IRI="#data4"/>
+        <NamedIndividual IRI="#data5"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#2.5"/>
+        <NamedIndividual IRI="#2002-07-02T01:00:00+00:00"/>
+        <NamedIndividual IRI="#2002-07-03T01:00:00+00:00"/>
+        <NamedIndividual IRI="#2018-05-28T01:00:00+00:00"/>
+        <NamedIndividual IRI="#2018-06-02T01:00:00+00:00"/>
+        <NamedIndividual IRI="#2018-06-03T01:00:00+00:00"/>
+        <NamedIndividual IRI="#30"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#960"/>
+        <NamedIndividual IRI="#961"/>
+        <NamedIndividual IRI="#962"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Abell_Point"/>
+        <NamedIndividual IRI="#Bilge"/>
+        <NamedIndividual IRI="#Brisbane"/>
+        <NamedIndividual IRI="#Bulimba"/>
+        <NamedIndividual IRI="#Cairns"/>
+        <NamedIndividual IRI="#Coastal_Water"/>
+        <NamedIndividual IRI="#Commercial"/>
+        <NamedIndividual IRI="#Diesel"/>
+        <NamedIndividual IRI="#Hydraulic_Oil"/>
+        <NamedIndividual IRI="#Mackay"/>
+        <NamedIndividual IRI="#Marina"/>
+        <NamedIndividual IRI="#Port"/>
+        <NamedIndividual IRI="#Ports_limits"/>
+        <NamedIndividual IRI="#Recreational"/>
+        <NamedIndividual IRI="#Sheen"/>
+        <NamedIndividual IRI="#Ship"/>
+        <NamedIndividual IRI="#Townsville"/>
+        <NamedIndividual IRI="#Townsville_Breakwater"/>
+        <NamedIndividual IRI="#Trinity"/>
+        <NamedIndividual IRI="#Unknown"/>
+        <NamedIndividual IRI="#data1"/>
+        <NamedIndividual IRI="#data2"/>
+        <NamedIndividual IRI="#data3"/>
+        <NamedIndividual IRI="#data4"/>
+        <NamedIndividual IRI="#data5"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#2.5"/>
+        <NamedIndividual IRI="#2002-07-02T01:00:00+00:00"/>
+        <NamedIndividual IRI="#2002-07-03T01:00:00+00:00"/>
+        <NamedIndividual IRI="#2018-05-28T01:00:00+00:00"/>
+        <NamedIndividual IRI="#2018-06-02T01:00:00+00:00"/>
+        <NamedIndividual IRI="#2018-06-03T01:00:00+00:00"/>
+        <NamedIndividual IRI="#30"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#960"/>
+        <NamedIndividual IRI="#961"/>
+        <NamedIndividual IRI="#962"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasArea"/>
+        <NamedIndividual IRI="#data1"/>
+        <NamedIndividual IRI="#Port"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDate"/>
+        <NamedIndividual IRI="#data1"/>
+        <NamedIndividual IRI="#2002-07-02T01:00:00+00:00"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEstimatedeLitres"/>
+        <NamedIndividual IRI="#data1"/>
+        <NamedIndividual IRI="#UnknownLitres"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasId"/>
+        <NamedIndividual IRI="#data1"/>
+        <NamedIndividual IRI="#1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLocation"/>
+        <NamedIndividual IRI="#data1"/>
+        <NamedIndividual IRI="#Trinity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPollutant"/>
+        <NamedIndividual IRI="#data1"/>
+        <NamedIndividual IRI="#Diesel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRegion"/>
+        <NamedIndividual IRI="#data1"/>
+        <NamedIndividual IRI="#Cairns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShipType"/>
+        <NamedIndividual IRI="#data1"/>
+        <NamedIndividual IRI="#Commercial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#data1"/>
+        <NamedIndividual IRI="#Ship"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasArea"/>
+        <NamedIndividual IRI="#data2"/>
+        <NamedIndividual IRI="#Coastal_Water"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDate"/>
+        <NamedIndividual IRI="#data2"/>
+        <NamedIndividual IRI="#2002-07-03T01:00:00+00:00"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEstimatedeLitres"/>
+        <NamedIndividual IRI="#data2"/>
+        <NamedIndividual IRI="#UnknownLitres"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasId"/>
+        <NamedIndividual IRI="#data2"/>
+        <NamedIndividual IRI="#2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLocation"/>
+        <NamedIndividual IRI="#data2"/>
+        <NamedIndividual IRI="#Marina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPollutant"/>
+        <NamedIndividual IRI="#data2"/>
+        <NamedIndividual IRI="#Bilge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRegion"/>
+        <NamedIndividual IRI="#data2"/>
+        <NamedIndividual IRI="#Cairns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShipType"/>
+        <NamedIndividual IRI="#data2"/>
+        <NamedIndividual IRI="#Recreational"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#data2"/>
+        <NamedIndividual IRI="#UnknownShip"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasArea"/>
+        <NamedIndividual IRI="#data3"/>
+        <NamedIndividual IRI="#Ports_limits"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDate"/>
+        <NamedIndividual IRI="#data3"/>
+        <NamedIndividual IRI="#2018-05-28T01:00:00+00:00"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEstimatedeLitres"/>
+        <NamedIndividual IRI="#data3"/>
+        <NamedIndividual IRI="#30"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasId"/>
+        <NamedIndividual IRI="#data3"/>
+        <NamedIndividual IRI="#960"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLocation"/>
+        <NamedIndividual IRI="#data3"/>
+        <NamedIndividual IRI="#Townsville_Breakwater"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPollutant"/>
+        <NamedIndividual IRI="#data3"/>
+        <NamedIndividual IRI="#Hydraulic_Oil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRegion"/>
+        <NamedIndividual IRI="#data3"/>
+        <NamedIndividual IRI="#Townsville"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShipType"/>
+        <NamedIndividual IRI="#data3"/>
+        <NamedIndividual IRI="#Commercial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#data3"/>
+        <NamedIndividual IRI="#Ship"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasArea"/>
+        <NamedIndividual IRI="#data4"/>
+        <NamedIndividual IRI="#Coastal_Water"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDate"/>
+        <NamedIndividual IRI="#data4"/>
+        <NamedIndividual IRI="#2018-06-02T01:00:00+00:00"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEstimatedeLitres"/>
+        <NamedIndividual IRI="#data4"/>
+        <NamedIndividual IRI="#2.5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasId"/>
+        <NamedIndividual IRI="#data4"/>
+        <NamedIndividual IRI="#961"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLocation"/>
+        <NamedIndividual IRI="#data4"/>
+        <NamedIndividual IRI="#Abell_Point"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPollutant"/>
+        <NamedIndividual IRI="#data4"/>
+        <NamedIndividual IRI="#Sheen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRegion"/>
+        <NamedIndividual IRI="#data4"/>
+        <NamedIndividual IRI="#Mackay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShipType"/>
+        <NamedIndividual IRI="#data4"/>
+        <NamedIndividual IRI="#UnknownST"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#data4"/>
+        <NamedIndividual IRI="#UnknownShip"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasArea"/>
+        <NamedIndividual IRI="#data5"/>
+        <NamedIndividual IRI="#Ports_limits"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDate"/>
+        <NamedIndividual IRI="#data5"/>
+        <NamedIndividual IRI="#2018-06-03T01:00:00+00:00"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEstimatedeLitres"/>
+        <NamedIndividual IRI="#data5"/>
+        <NamedIndividual IRI="#4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasId"/>
+        <NamedIndividual IRI="#data5"/>
+        <NamedIndividual IRI="#962"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLocation"/>
+        <NamedIndividual IRI="#data5"/>
+        <NamedIndividual IRI="#Bulimba"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPollutant"/>
+        <NamedIndividual IRI="#data5"/>
+        <NamedIndividual IRI="#Sheen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRegion"/>
+        <NamedIndividual IRI="#data5"/>
+        <NamedIndividual IRI="#Brisbane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShipType"/>
+        <NamedIndividual IRI="#data5"/>
+        <NamedIndividual IRI="#UnknownST"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#data5"/>
+        <NamedIndividual IRI="#UnknownShip"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasArea"/>
+        <Class IRI="#MarinePollution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDate"/>
+        <Class IRI="#MarinePollution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEstimatedeLitres"/>
+        <Class IRI="#MarinePollution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasId"/>
+        <Class IRI="#MarinePollution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#MarinePollution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPollutant"/>
+        <Class IRI="#MarinePollution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRegion"/>
+        <Class IRI="#MarinePollution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasShipType"/>
+        <Class IRI="#MarinePollution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSource"/>
+        <Class IRI="#MarinePollution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasArea"/>
+        <Class IRI="#Area"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDate"/>
+        <Class IRI="#Date"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEstimatedeLitres"/>
+        <Class IRI="#EstimatedLitres"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasId"/>
+        <Class IRI="#Id"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPollutant"/>
+        <Class IRI="#Pollutant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRegion"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasShipType"/>
+        <Class IRI="#ShipType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSource"/>
+        <Class IRI="#Source"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
