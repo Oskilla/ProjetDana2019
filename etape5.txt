@@ -1,0 +1,17 @@
+/*
+* On créé une IRI pour chacune de nos ville présent dans nos data (Brisbane,Cairns,Gladstone, Townsville, Mackay, Gold Coast, Bundaberg, Brisbane, Hay Point)
+* On fait enfin ce qui suit pour chaque ville
+*/
+:Brisbane rdf:type void:Dataset; // pour créer notre "lien" du coter de nos donnée 
+	void:sparqlEndpoint <http://www.semanticweb.org/quest/ontologies/2019/11/untitled-ontology-2#Brisbane>;
+	rdfs:label "Brisbane"^^xsd:string;
+
+:DBPBrisbane rdf:type void:Dataset; // pour créer notre "lien" du coter de DBpedia;
+	void:sparqlEndpoint <http://www.dbpedia.org/ontology/Brisbane>;
+
+:DBPcity void:Linkset; // pour faire le lien entre les deux parties 
+	void:target :DBPBrisbane;
+	void:target :Brisbane;
+	void:linkPredicate owl:sameAs
+	
+	
